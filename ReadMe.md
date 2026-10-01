@@ -7,7 +7,10 @@
 ## Create your own job search prompt
 It had long bothered me that finding suitable jobs to apply for took me like forever. So I built a master prompt for myself that runs five pages long. Now the search no longer takes me 2 hours, but 15 minutes.
 
-Step by step, I'll walk you through how I built it.
+Step by step, I'll walk you through how I built it...but first, let me quickyl point out a few safety rules: 
+- Do not upload your CV because it probably contains personal information, such as your name, address and phone number
+- Do not provide any other personal information, like your salary - or let alone your visa status
+- To be 100% safe: Do not click on any links that the AI provides because prompt injection unfortunately is a thing; it " manipulates the model’s behavior by crafting malicious or misleading prompts", as defined by the [Open Worldwide Application Security Project (OWASP)](https://community.owasp.org/attacks/PromptInjection)
 
 ## ✍️ Prepare your information
 - Collect job platforms: Which websites do you use to search for jobs?
@@ -62,7 +65,7 @@ Have the master prompt critiqued in a new chat – preferably more than once, to
     You are a prompt engineer. I wrote this prompt to search for job openings in the field of [your field]. Task: Give me up to three suggestions for making the prompt deliver more precise results. Any questions before we begin?
 
 ## 💻 Test the prompt
-Put the master prompt to the test: Does it deliver what you want? Review the output and click through the links to the job postings. If problems occur, think about how to fix them, and if you can't come up with a solution, ask the AI for advice – in the same chat where you ran the test.
+Put the master prompt to the test: Does it deliver what you want? Review the output and review the links to the job postings. Again, it's safer when you don't click on the links, but search for them yourself. If problems occur, think about how to fix them, and if you can't come up with a solution, ask the AI for advice – in the same chat where you ran the test.
 
 **💪 Your master prompt is ready!**
 
